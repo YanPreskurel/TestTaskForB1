@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|d:\\commits\\testtaskforb1\\firsttask_consoleapp\\services\\databaseimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|solutionrelative:services\\databaseimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|d:\\commits\\testtaskforb1\\firsttask_consoleapp\\services\\filemerger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|solutionrelative:services\\filemerger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|d:\\commits\\testtaskforb1\\firsttask_consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|d:\\commits\\testtaskforb1\\firsttask_consoleapp\\services\\filegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|solutionrelative:services\\filegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|d:\\commits\\testtaskforb1\\firsttask_consoleapp\\services\\sqlrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|solutionrelative:services\\sqlrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|d:\\commits\\testtaskforb1\\firsttask_consoleapp\\utils\\randomdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE22AA1-3E04-4D38-A0E5-117AF9F6FABF}|FirstTask_ConsoleApp.csproj|solutionrelative:utils\\randomdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 145,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SqlRunner.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Services\\SqlRunner.cs",
+              "RelativeDocumentMoniker": "Services\\SqlRunner.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Services\\SqlRunner.cs",
+              "RelativeToolTip": "Services\\SqlRunner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T19:32:03.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseImporter.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Services\\DatabaseImporter.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseImporter.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Services\\DatabaseImporter.cs",
+              "RelativeToolTip": "Services\\DatabaseImporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T13:22:13.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileGenerator.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Services\\FileGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\FileGenerator.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Services\\FileGenerator.cs",
+              "RelativeToolTip": "Services\\FileGenerator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T13:21:44.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwCgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:27:20.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileMerger.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Services\\FileMerger.cs",
+              "RelativeDocumentMoniker": "Services\\FileMerger.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Services\\FileMerger.cs",
+              "RelativeToolTip": "Services\\FileMerger.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T13:21:54.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RandomDataGenerator.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Utils\\RandomDataGenerator.cs",
+              "RelativeDocumentMoniker": "Utils\\RandomDataGenerator.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Utils\\RandomDataGenerator.cs",
+              "RelativeToolTip": "Utils\\RandomDataGenerator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T13:22:35.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1160,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

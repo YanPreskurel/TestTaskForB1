@@ -1,0 +1,4 @@
+SELECT DISTINCT
+    PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY FloatValue) 
+    OVER () AS MedianValue
+FROM dbo.MyTable;
