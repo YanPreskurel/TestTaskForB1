@@ -1,6 +1,9 @@
-﻿namespace SecondTask_WebApp.Data.Repositories
+﻿using SecondTask_WebApp.Models;
+
+namespace SecondTask_WebApp.Data.Repositories
 {
-    public interface IFileRepository
+    public interface IFileRepository : IBaseRepository<FileEntity>
     {
+        Task<FileEntity?> GetFileWithClassesAsync(int id);
     }
 }

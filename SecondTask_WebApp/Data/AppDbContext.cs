@@ -6,6 +6,7 @@ namespace SecondTask_WebApp.Data
     public class AppDbContext : DbContext
     {
         public DbSet<FileEntity> Files { get; set; } = null!;
+        public DbSet<AccountClass> AccountClasses { get; set; } = null!;
         public DbSet<Account> Accounts { get; set; } = null!;
         public DbSet<Balance> Balances { get; set; } = null!;
 
@@ -18,15 +19,15 @@ namespace SecondTask_WebApp.Data
                 .IsRequired()
                 .HasMaxLength(260);
 
-            modelBuilder.Entity<Account>()
-                .Property(a => a.AccountCode)
-                .HasMaxLength(50);
 
-            modelBuilder.Entity<Account>()
-                .Property(a => a.AccountName)
+            modelBuilder.Entity<AccountClass>()
+                .Property(ac => ac.ClassName)
                 .IsRequired()
-                .HasMaxLength(250);
+                .HasMaxLength(260);
 
+            modelBuilder.Entity<AccountClass>()
+                .Property(ac => ac.ClassCode)
+                .HasMaxLength(20);
         }
     }
 }

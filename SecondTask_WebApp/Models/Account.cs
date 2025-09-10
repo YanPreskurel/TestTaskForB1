@@ -4,12 +4,13 @@
     {
         public int Id { get; set; }
 
-        public int FileEntityId { get; set; }
-        public FileEntity FileEntity { get; set; } = null!;
+        public int AccountClassId { get; set; }
+        public AccountClass AccountClass { get; set; } = null!;
 
         public string? AccountCode { get; set; }
         public string AccountName { get; set; } = null!;
 
+        public bool IsSummary { get; set; }
         public Balance Balance { get; set; } = null!;
     }
 }

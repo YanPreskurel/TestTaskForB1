@@ -1,0 +1,72 @@
+﻿@model SecondTask_WebApp.ViewModels.TableViewModel
+
+@{
+    ViewData["Title"] = "Предпросмотр файла";
+    var fileInfo = ViewBag.FileInfo as SecondTask_WebApp.ViewModels.FileViewModel;
+}
+
+<h2 class="mb-3 text-center">Банк: Название банка</h2>
+
+<p class="text-center">
+    <strong>Период:</strong>
+    @(fileInfo?.PeriodFrom?.ToString("dd.MM.yyyy") ?? "") –
+    @(fileInfo?.PeriodTo?.ToString("dd.MM.yyyy") ?? "")
+</p>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover table-sm align-middle">
+        <thead class="table-dark sticky-top">
+            <tr>
+                <th scope="col">Б/сч</th>
+                <th class="text-end">Входящее сальдо (Актив)</th>
+                <th class="text-end">Входящее сальдо (Пассив)</th>
+                <th class="text-end">Обороты (Дебет)</th>
+                <th class="text-end">Обороты (Кредит)</th>
+                <th class="text-end">Исходящее сальдо (Актив)</th>
+                <th class="text-end">Исходящее сальдо (Пассив)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                string? currentClass = null;
+            }
+            @foreach (var r in Model.Rows)
+            {
+                var classLabel = $"КЛАСС {r.ClassCode} – {r.ClassName}";
+                if (classLabel != currentClass)
+                {
+                    currentClass = classLabel;
+                    <tr class="table-secondary fw-bold">
+                        <td colspan="7" class="text-center">@currentClass</td>
+                    </tr>
+                }
+
+                <tr class="@(r.IsSummary ? "table-secondary fw-bold" : "")">
+                    <td>@r.AccountCode</td>
+                    <td class="text-end">@(r.OpeningDebit?.ToString("N2") ?? "")</td>
+                    <td class="text-end">@(r.OpeningCredit?.ToString("N2") ?? "")</td>
+                    <td class="text-end">@(r.TurnoverDebit?.ToString("N2") ?? "")</td>
+                    <td class="text-end">@(r.TurnoverCredit?.ToString("N2") ?? "")</td>
+                    <td class="text-end">@(r.ClosingDebit?.ToString("N2") ?? "")</td>
+                    <td class="text-end">@(r.ClosingCredit?.ToString("N2") ?? "")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<p>
+    <a asp-action="Index" asp-controller="Files" class="btn btn-outline-secondary">Назад к списку</a>
+</p>
+
+<style>
+    .table-responsive {
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+
+    th.sticky-top {
+        top: 0;
+        z-index: 2;
+    }
+</style>
