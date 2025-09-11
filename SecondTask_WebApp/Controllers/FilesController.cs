@@ -24,7 +24,6 @@ namespace SecondTask_WebApp.Controllers
             _tableRenderer = tableRenderer;
         }
 
-        // GET: /Files
         public async Task<IActionResult> Index()
         {
             var files = await _fileRepository.GetAllAsync();
@@ -40,14 +39,12 @@ namespace SecondTask_WebApp.Controllers
             return View(vm);
         }
 
-        // GET: /Files/Upload
         [HttpGet]
         public IActionResult Upload()
         {
             return View(new FileUploadViewModel());
         }
 
-        // POST: /Files/Upload
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Upload(FileUploadViewModel model)
@@ -63,7 +60,6 @@ namespace SecondTask_WebApp.Controllers
 
             if (model.Preview)
             {
-                // preview: парсим, но не сохраняем
                 var (fileInfo, table) = await _excelImport.ParseFileAsync(savedPath, model.File.FileName);
                 ViewBag.FileInfo = fileInfo;
                 return View("Preview", table);
@@ -75,7 +71,6 @@ namespace SecondTask_WebApp.Controllers
             }
         }
 
-        // GET: /Files/Details/5
         public async Task<IActionResult> Details(int id)
         {
             try
@@ -100,12 +95,5 @@ namespace SecondTask_WebApp.Controllers
                 return RedirectToAction(nameof(Index));
             }
         }
-    }
-
-    // Вспомогательная viewmodel для формы загрузки
-    public class FileUploadViewModel
-    {
-        public IFormFile? File { get; set; }
-        public bool Preview { get; set; } = false;
     }
 }

@@ -58,8 +58,7 @@
               "RelativeToolTip": "Services\\SqlRunner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T19:32:03.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T19:32:03.285Z"
             },
             {
               "$type": "Document",
@@ -69,7 +68,7 @@
               "RelativeDocumentMoniker": "Services\\DatabaseImporter.cs",
               "ToolTip": "D:\\Commits\\TestTaskForB1\\FirstTask_ConsoleApp\\Services\\DatabaseImporter.cs",
               "RelativeToolTip": "Services\\DatabaseImporter.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAkwE0AAABdAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwE0AAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T13:22:13.364Z",
               "EditorCaption": ""
@@ -84,8 +83,7 @@
               "RelativeToolTip": "Services\\FileGenerator.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T13:21:44.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T13:21:44.236Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAQwCgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T11:27:20.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T11:27:20.311Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Services\\FileMerger.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T13:21:54.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T13:21:54.67Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "Utils\\RandomDataGenerator.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwDMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T13:22:35.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T13:22:35.05Z"
             }
           ]
         },

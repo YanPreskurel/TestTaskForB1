@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecondTask_WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b6da22ef814d5ad8c6a231082553bea944d2947")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20623ee3bfe4eca22bb148aac9e40ea7c19fc5de")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecondTask_WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecondTask_WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

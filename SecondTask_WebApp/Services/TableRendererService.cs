@@ -21,11 +21,6 @@ namespace SecondTask_WebApp.Services
 
             var table = new TableViewModel
             {
-                //FileName = file.FileName,
-                //BankName = file.BankName,
-                //PeriodFrom = file.PeriodFrom,
-                //PeriodTo = file.PeriodTo,
-                //Rows = new List<TableRowViewModel>()
             };
 
             foreach (var cls in file.Classes)
@@ -45,7 +40,8 @@ namespace SecondTask_WebApp.Services
                         TurnoverDebit = bal?.TurnoverDebit,
                         TurnoverCredit = bal?.TurnoverCredit,
                         ClosingDebit = bal?.ClosingDebit,
-                        ClosingCredit = bal?.ClosingCredit
+                        ClosingCredit = bal?.ClosingCredit,
+                        IsSummary = acc.IsSummary
                     });
                 }
             }

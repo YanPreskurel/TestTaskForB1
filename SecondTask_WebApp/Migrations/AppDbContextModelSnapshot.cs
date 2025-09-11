@@ -22,6 +22,34 @@ namespace SecondTask_WebApp.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("FileEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BankName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasMaxLength(260)
+                        .HasColumnType("nvarchar(260)");
+
+                    b.Property<DateTime?>("PeriodFrom")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("PeriodTo")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Files");
+                });
+
             modelBuilder.Entity("SecondTask_WebApp.Models.Account", b =>
                 {
                     b.Property<int>("Id")
@@ -115,34 +143,6 @@ namespace SecondTask_WebApp.Migrations
                     b.ToTable("Balances");
                 });
 
-            modelBuilder.Entity("SecondTask_WebApp.Models.FileEntity", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("BankName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FileName")
-                        .IsRequired()
-                        .HasMaxLength(260)
-                        .HasColumnType("nvarchar(260)");
-
-                    b.Property<DateTime>("PeriodFrom")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("PeriodTo")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Files");
-                });
-
             modelBuilder.Entity("SecondTask_WebApp.Models.Account", b =>
                 {
                     b.HasOne("SecondTask_WebApp.Models.AccountClass", "AccountClass")
@@ -156,7 +156,7 @@ namespace SecondTask_WebApp.Migrations
 
             modelBuilder.Entity("SecondTask_WebApp.Models.AccountClass", b =>
                 {
-                    b.HasOne("SecondTask_WebApp.Models.FileEntity", "FileEntity")
+                    b.HasOne("FileEntity", "FileEntity")
                         .WithMany("Classes")
                         .HasForeignKey("FileEntityId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -176,6 +176,11 @@ namespace SecondTask_WebApp.Migrations
                     b.Navigation("Account");
                 });
 
+            modelBuilder.Entity("FileEntity", b =>
+                {
+                    b.Navigation("Classes");
+                });
+
             modelBuilder.Entity("SecondTask_WebApp.Models.Account", b =>
                 {
                     b.Navigation("Balance")
@@ -185,11 +190,6 @@ namespace SecondTask_WebApp.Migrations
             modelBuilder.Entity("SecondTask_WebApp.Models.AccountClass", b =>
                 {
                     b.Navigation("Accounts");
-                });
-
-            modelBuilder.Entity("SecondTask_WebApp.Models.FileEntity", b =>
-                {
-                    b.Navigation("Classes");
                 });
 #pragma warning restore 612, 618
         }

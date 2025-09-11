@@ -14,7 +14,7 @@ namespace SecondTask_WebApp.Services
         private readonly IAccountRepository _accountRepo;
         private readonly IBalanceRepository _balanceRepo;
 
-        private static readonly string[] SummaryKeywords = new[] { "итог", "итога", "итого", "total", "sum", "сумма", "всего", "uclass" };
+        private static readonly string[] SummaryKeywords = new[] { "итог", "по классу", "итого", "баланс", "сумма", "всего" };
 
         public ExcelImportService(
             IFileRepository fileRepo,
@@ -89,23 +89,21 @@ namespace SecondTask_WebApp.Services
             return fileEntity;
         }
 
-        // Парсинг без записи в БД — preview/dry-run
+        // Парсинг без записи в БД
         public async Task<(FileViewModel FileInfo, TableViewModel Table)> ParseFileAsync(string filePath, string fileName)
         {
             return await Task.Run(() => ParseInternal(filePath, fileName));
         }
 
-        // ==== Общая логика парсера (возвращает FileViewModel + TableViewModel) ====
+        // Общая логика парсера 
         private (FileViewModel FileInfo, TableViewModel Table) ParseInternal(string filePath, string fileName)
         {
             using var wb = new XLWorkbook(filePath);
             var ws = wb.Worksheet(1);
 
-            // Найдём строку заголовка (в нашем файле ищем "Б/сч" или похожие маркеры)
             int headerRow = FindHeaderRow(ws);
             if (headerRow == -1)
             {
-                // fallback — можно попытаться догадаться
                 headerRow = 7;
             }
 
@@ -120,7 +118,7 @@ namespace SecondTask_WebApp.Services
 
             // Определяем стартовую строку с данными
             int startRow = headerRow + 1;
-            // если следующая строка не числовая (подзаголовок) — пропускаем её
+
             if (ws.Row(startRow).CellsUsed().All(c => !IsNumericLike(c.GetString()))) startRow++;
 
             var tableVm = new TableViewModel { FileId = 0 };
@@ -136,7 +134,6 @@ namespace SecondTask_WebApp.Services
                 var rowUsed = ws.Row(r).CellsUsed();
                 if (rowUsed.Count() == 0)
                 {
-                    // конец таблицы
                     break;
                 }
 
@@ -146,7 +143,6 @@ namespace SecondTask_WebApp.Services
                 // Если строка содержит "КЛАСС" — считаем это началом блока класса
                 if (!string.IsNullOrEmpty(firstText) && Regex.IsMatch(firstText, @"\bКЛАСС\b", RegexOptions.IgnoreCase))
                 {
-                    // выделяем код и имя класса
                     var m = Regex.Match(firstText, @"\bКЛАСС\b\s*([0-9]+)?\s*(.*)", RegexOptions.IgnoreCase);
                     string classCode = "";
                     string className = firstText;
@@ -158,19 +154,16 @@ namespace SecondTask_WebApp.Services
                             className = m.Groups[2].Value.Trim();
                     }
 
-                    // сохраняем в кэше для использования в следующих строках
                     var key = (classCode + "|" + className).Trim();
                     if (!classCache.ContainsKey(key))
                         classCache[key] = (classCode, className);
 
-                    // текущий класс просто имя/код — в режиме preview нам не нужен объект AccountClass
                     currentClass = new AccountClass { ClassCode = classCode, ClassName = className, FileEntityId = 0 };
 
                     r++;
                     continue;
                 }
 
-                // Считаем, что строка — это запись со счетом: код в 1-й колонке, числа 2..7
                 var accountCodeRaw = ws.Cell(r, 1).GetString().Trim();
                 if (string.IsNullOrEmpty(accountCodeRaw))
                 {
@@ -179,7 +172,7 @@ namespace SecondTask_WebApp.Services
                         accountCodeRaw = ws.Cell(r, 1).GetValue<double>().ToString(CultureInfo.InvariantCulture);
                 }
                 var accountCode = NormalizeAccountCode(accountCodeRaw);
-                var accountName = ""; // в этом файле нет отдельного столбца имени (можно расширить)
+                var accountName = ""; 
 
                 // определяем IsSummary
                 bool isSummary = false;
@@ -191,7 +184,7 @@ namespace SecondTask_WebApp.Services
                 }
                 catch { }
 
-                // читаем числовые колонки (2..7)
+                // читаем числовые колонки 
                 decimal? openingDebit = SafeGetDecimal(ws.Cell(r, 2));
                 decimal? openingCredit = SafeGetDecimal(ws.Cell(r, 3));
                 decimal? turnoverDebit = SafeGetDecimal(ws.Cell(r, 4));
@@ -199,11 +192,9 @@ namespace SecondTask_WebApp.Services
                 decimal? closingDebit = SafeGetDecimal(ws.Cell(r, 6));
                 decimal? closingCredit = SafeGetDecimal(ws.Cell(r, 7));
 
-                // присваиваем класс: если currentClass null — поставим пустой класс
                 string classCodeForRow = currentClass?.ClassCode ?? "";
                 string classNameForRow = currentClass?.ClassName ?? "";
 
-                // добавим строку в TableViewModel
                 tableVm.Rows.Add(new TableRowViewModel
                 {
                     ClassCode = classCodeForRow,
@@ -225,7 +216,6 @@ namespace SecondTask_WebApp.Services
             return (fileVm, tableVm);
         }
 
-        // ===== вспомогательные методы =====
         private int FindHeaderRow(IXLWorksheet ws)
         {
             int maxRow = Math.Min(50, ws.LastRowUsed()?.RowNumber() ?? 50);
@@ -277,7 +267,6 @@ namespace SecondTask_WebApp.Services
                 }
             }
 
-            // fallback — если не нашли период, попробуем вытащить две даты из первых строк
             if (from == null || to == null)
             {
                 var dateRegex = new Regex(@"\d{1,2}\.\d{1,2}\.\d{4}");
@@ -322,7 +311,11 @@ namespace SecondTask_WebApp.Services
                 if (double.TryParse(s, NumberStyles.Any, CultureInfo.InvariantCulture, out var dd))
                     return Convert.ToDecimal(dd);
             }
-            catch { }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка при чтении ячейки {cell.Address}: {ex.Message}");
+                return null;
+            }
             return null;
         }
 
