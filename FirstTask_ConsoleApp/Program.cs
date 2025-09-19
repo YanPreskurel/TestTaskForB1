@@ -1,7 +1,6 @@
 ﻿using FirstTask_ConsoleApp.Services;
 class Program
 {
-    // строка подключения к SQL Server — поменяй под свою БД
     private static string connectionString =
         "Server=localhost\\SQLEXPRESS;Database=TestDB;Trusted_Connection=True;TrustServerCertificate=True;";
 
@@ -47,8 +46,9 @@ class Program
                     Console.WriteLine("2. Медиана дробных чисел");
                     Console.Write("Ваш выбор: ");
                     string? sqlChoice = Console.ReadLine();
-
-                    string scriptDir = Path.Combine(AppContext.BaseDirectory, "SqlScripts");
+                   
+                    // AppContext.BaseDirectory - путь к папке, где запущено приложение bin/Debug/net8.0/
+                    string scriptDir = Path.Combine(AppContext.BaseDirectory, "SqlScripts"); // Формируем путь к папке
 
                     if (sqlChoice == "1")
                     {
@@ -61,7 +61,6 @@ class Program
                         SqlRunner.ExecuteSqlScript(connectionString, scriptPath, Console.WriteLine);
                     }
                     break;
-
 
                 case "0":
                     return;

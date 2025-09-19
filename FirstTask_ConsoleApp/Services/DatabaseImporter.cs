@@ -9,38 +9,38 @@ using System.Threading.Tasks;
 
 namespace FirstTask_ConsoleApp.Services
 {
-    public static class DatabaseImporter
+    public static class DatabaseImporter //импорт данных из файла в БД
     {
-        private const int BatchSize = 10_000;
+        private const int BatchSize = 10_000; // батч для загрузки по 10000 строк, так быстрее, чем грузить по 1 строке
 
         public static void ImportToSqlServer(string connectionString, string tableName, string inputFile, Action<string>? log = null)
         {
-            EnsureTableExists(connectionString, tableName, log);
+            EnsureTableExists(connectionString, tableName, log); // создаеи таблицу если ее нет 
 
-            int processed = 0;
-            int total = -1;
+            int processed = 0; // сколько строк обработали
+            int total = -1; // общее количество для прогресса
 
             try 
             { 
-                total = File.ReadLines(inputFile).Count();
+                total = File.ReadLines(inputFile).Count(); // ленивое чтение, не грузит все в память, под капотом Enumerable
             } 
             catch
             { 
                 total = -1;
             }
 
-            var table = CreateDataTable();
+            var table = CreateDataTable(); // временный контейнер для БД
 
-            foreach (var line in File.ReadLines(inputFile))
+            foreach (var line in File.ReadLines(inputFile)) // читаем построчно
             {
                 processed++;
                 var parts = line.Split(new string[] { "||" }, StringSplitOptions.None);
-                if (parts.Length < 5) continue;
+                if (parts.Length < 5) continue; // битая стркоа
 
                 if (!TryParseRow(parts, out var parsed))
                     continue;
 
-                table.Rows.Add(parsed.Date, parsed.Latin, parsed.Cyrillic, parsed.IntValue, parsed.FloatValue);
+                table.Rows.Add(parsed.Date, parsed.Latin, parsed.Cyrillic, parsed.IntValue, parsed.FloatValue); // добавляем в таблицу
 
                 // Прогресс по строкам
                 if (processed % 5000 == 0)
@@ -48,17 +48,17 @@ namespace FirstTask_ConsoleApp.Services
                     log?.Invoke($"Обработано {processed}{(total > 0 ? $" из {total}" : "")} строк...");
                 }
 
-                // Запись батчами
+                // Запись батчами когда накопили 10000
                 if (table.Rows.Count >= BatchSize)
                 {
-                    BulkWrite(connectionString, tableName, table, log);
-                    table.Clear();
+                    BulkWrite(connectionString, tableName, table, log); // быстрый импорт
+                    table.Clear(); // освобождаем память
                     log?.Invoke($"В БД добавлен батч (всего {processed}{(total > 0 ? $" из {total}" : "")})");
                 }
             }
 
 
-            if (table.Rows.Count > 0)
+            if (table.Rows.Count > 0) // если осталось меньше 10000 тоже сохраним
             {
                 BulkWrite(connectionString, tableName, table, log);
                 log?.Invoke($"Импортировано {processed} строк{(total > 0 ? $" из {total}" : "")}");
@@ -67,7 +67,7 @@ namespace FirstTask_ConsoleApp.Services
             log?.Invoke("Импорт в БД завершён.");
         }
 
-        private static DataTable CreateDataTable()
+        private static DataTable CreateDataTable() // создаем нужные колонки
         {
             var t = new DataTable();
 
@@ -88,7 +88,7 @@ namespace FirstTask_ConsoleApp.Services
             using var bulk = new SqlBulkCopy(conn)
             {
                 DestinationTableName = tableName,
-                BatchSize = table.Rows.Count,
+                BatchSize = table.Rows.Count, // строк в пачке
                 BulkCopyTimeout = 600
             };
 
@@ -128,7 +128,7 @@ namespace FirstTask_ConsoleApp.Services
             return true;
         }
 
-        private static void EnsureTableExists(string connectionString, string tableName, Action<string>? log)
+        private static void EnsureTableExists(string connectionString, string tableName, Action<string>? log) // скрипт для проверки существоания таблицы
         {
             var sql = $@"
                          IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[{tableName}]') AND type in (N'U'))

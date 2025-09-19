@@ -9,18 +9,20 @@ namespace FirstTask_ConsoleApp.Services
 
     public static class SqlRunner
     {
-        public static void ExecuteSqlScript(string connectionString, string scriptPath, Action<string>? log = null)
+        public static void ExecuteSqlScript(string connectionString, string scriptPath, Action<string>? log = null) // выполняет скрипт по блокам
         {
-            string sql = File.ReadAllText(scriptPath, Encoding.UTF8);
-            var batches = SplitByGo(sql);
+            string sql = File.ReadAllText(scriptPath, Encoding.UTF8); // читает файл в строку
+            var batches = SplitByGo(sql); // разбивает скрипт на блоки по GO
 
             using var conn = new SqlConnection(connectionString);
             conn.Open();
 
             int i = 0;
+
             foreach (var batch in batches)
             {
                 i++;
+
                 if (string.IsNullOrWhiteSpace(batch))
                     continue;
 
@@ -28,9 +30,11 @@ namespace FirstTask_ConsoleApp.Services
                 cmd.CommandText = batch;
                 cmd.CommandTimeout = 600;
 
-                if (batch.TrimStart().StartsWith("SELECT", StringComparison.OrdinalIgnoreCase))
+                using var reader = cmd.ExecuteReader();
+
+                // Если есть строки — выводим их
+                if (reader.HasRows)
                 {
-                    using var reader = cmd.ExecuteReader();
                     while (reader.Read())
                     {
                         var values = new object[reader.FieldCount];
@@ -40,8 +44,12 @@ namespace FirstTask_ConsoleApp.Services
                 }
                 else
                 {
-                    cmd.ExecuteNonQuery();
+                    // Если SELECT не вернул строки — просто выполняем как NonQuery
+                    int affected = reader.RecordsAffected;
+                    if (affected >= 0)
+                        log?.Invoke($"Выполнено {affected} строк");
                 }
+
 
                 log?.Invoke($"Выполнен блок {i}/{batches.Length}");
             }
@@ -49,26 +57,26 @@ namespace FirstTask_ConsoleApp.Services
             log?.Invoke("Выполнение SQL-скрипта завершено.");
         }
 
-        private static string[] SplitByGo(string sql)
+        private static string[] SplitByGo(string sql) // передаем текст скрипта 
         {
-            var lines = sql.Replace("\r\n", "\n").Split('\n');
-            var list = new List<string>();
-            var sb = new StringBuilder();
+            var lines = sql.Replace("\r\n", "\n").Split('\n'); // разбиваем на массив строк
+            var list = new List<string>(); // хранит готовые блоки скрипта
+            var sb = new StringBuilder(); // собирает строки временно в один блок до GO
 
             foreach (var line in lines)
             {
-                if (line.Trim().Equals("GO", StringComparison.OrdinalIgnoreCase))
+                if (line.Trim().Equals("GO", StringComparison.OrdinalIgnoreCase)) //  сранвение без учета регистра
                 {
-                    list.Add(sb.ToString());
+                    list.Add(sb.ToString()); // добавляем блок если стретили GO без учета регистра
                     sb.Clear();
                 }
                 else
                 {
-                    sb.AppendLine(line);
+                    sb.AppendLine(line); // собираем строку дальше
                 }
             }
 
-            if (sb.Length > 0)
+            if (sb.Length > 0) // добавление последнего блока
                 list.Add(sb.ToString());
 
             return list.ToArray();
