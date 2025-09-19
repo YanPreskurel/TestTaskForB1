@@ -3,20 +3,72 @@
   "WorkspaceRootPath": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\services\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:services\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\data\\repositories\\accountclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:data\\repositories\\accountclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\viewmodels\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:viewmodels\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\viewmodels\\fileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:viewmodels\\fileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\viewmodels\\tablerowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:viewmodels\\tablerowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\services\\tablerendererservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:services\\tablerendererservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\viewmodels\\tableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:viewmodels\\tableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\services\\itablerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:services\\itablerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\services\\iexcelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:services\\iexcelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\models\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:models\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\models\\accountclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:models\\accountclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\models\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:models\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\views\\files\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,50 +87,6 @@
       "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:views\\files\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\viewmodels\\tableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:viewmodels\\tableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\viewmodels\\tablerowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:viewmodels\\tablerowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\viewmodels\\fileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:viewmodels\\fileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\viewmodels\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:viewmodels\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\services\\iexcelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:services\\iexcelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\services\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:services\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\models\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:models\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\models\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:models\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\models\\accountclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:models\\accountclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|d:\\commits\\testtaskforb1\\secondtask_webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{824E6BE9-3721-41B3-8BF0-D42A97E41AC0}|SecondTask_WebApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -90,151 +98,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 145,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TableRendererService.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\TableRendererService.cs",
-              "RelativeDocumentMoniker": "Services\\TableRendererService.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\TableRendererService.cs",
-              "RelativeToolTip": "Services\\TableRendererService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:18:08.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExcelImportService.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\ExcelImportService.cs",
-              "RelativeDocumentMoniker": "Services\\ExcelImportService.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\ExcelImportService.cs",
-              "RelativeToolTip": "Services\\ExcelImportService.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAqwKoAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:10:00.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITableRenderer.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\ITableRenderer.cs",
-              "RelativeDocumentMoniker": "Services\\ITableRenderer.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\ITableRenderer.cs",
-              "RelativeToolTip": "Services\\ITableRenderer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:29:28.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Upload.cshtml",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Upload.cshtml",
-              "RelativeDocumentMoniker": "Views\\Files\\Upload.cshtml",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Upload.cshtml",
-              "RelativeToolTip": "Views\\Files\\Upload.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T15:30:05.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Preview.cshtml",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Preview.cshtml",
-              "RelativeDocumentMoniker": "Views\\Files\\Preview.cshtml",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Preview.cshtml",
-              "RelativeToolTip": "Views\\Files\\Preview.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T15:30:01.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Files\\Index.cshtml",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Index.cshtml",
-              "RelativeToolTip": "Views\\Files\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T15:29:59.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Files\\Details.cshtml",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Details.cshtml",
-              "RelativeToolTip": "Views\\Files\\Details.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T15:29:55.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FilesController.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Controllers\\FilesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FilesController.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Controllers\\FilesController.cs",
-              "RelativeToolTip": "Controllers\\FilesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:07:24.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TableViewModel.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\TableViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\TableViewModel.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\TableViewModel.cs",
-              "RelativeToolTip": "ViewModels\\TableViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:29:47.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TableRowViewModel.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\TableRowViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\TableRowViewModel.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\TableRowViewModel.cs",
-              "RelativeToolTip": "ViewModels\\TableRowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:29:43.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FileViewModel.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\FileViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\FileViewModel.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\FileViewModel.cs",
-              "RelativeToolTip": "ViewModels\\FileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:29:37.131Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -249,98 +114,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IExcelImportService.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\IExcelImportService.cs",
-              "RelativeDocumentMoniker": "Services\\IExcelImportService.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\IExcelImportService.cs",
-              "RelativeToolTip": "Services\\IExcelImportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ExcelImportService.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\ExcelImportService.cs",
+              "RelativeDocumentMoniker": "Services\\ExcelImportService.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\ExcelImportService.cs",
+              "RelativeToolTip": "Services\\ExcelImportService.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAAPQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:18:05.322Z",
+              "WhenOpened": "2025-09-11T15:10:00.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilesController.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "Controllers\\FilesController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwEQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:07:24.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FileStorageService.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\FileStorageService.cs",
               "RelativeDocumentMoniker": "Services\\FileStorageService.cs",
               "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\FileStorageService.cs",
               "RelativeToolTip": "Services\\FileStorageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T13:29:15.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IFileStorageService.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\IFileStorageService.cs",
-              "RelativeDocumentMoniker": "Services\\IFileStorageService.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\IFileStorageService.cs",
-              "RelativeToolTip": "Services\\IFileStorageService.cs",
+              "DocumentIndex": 3,
+              "Title": "AccountClassRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Data\\Repositories\\AccountClassRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\AccountClassRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Data\\Repositories\\AccountClassRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\AccountClassRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:22:21.994Z",
+              "WhenOpened": "2025-09-19T10:06:40.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FileUploadViewModel.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\FileUploadViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\FileUploadViewModel.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\FileUploadViewModel.cs",
-              "RelativeToolTip": "ViewModels\\FileUploadViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:08:40.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FileEntity.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\FileEntity.cs",
-              "RelativeDocumentMoniker": "Models\\FileEntity.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\FileEntity.cs",
-              "RelativeToolTip": "Models\\FileEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:21:02.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Balance.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\Balance.cs",
-              "RelativeDocumentMoniker": "Models\\Balance.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\Balance.cs",
-              "RelativeToolTip": "Models\\Balance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:20:56.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AccountClass.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\AccountClass.cs",
-              "RelativeDocumentMoniker": "Models\\AccountClass.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\AccountClass.cs",
-              "RelativeToolTip": "Models\\AccountClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:21:01.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 4,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\Account.cs",
               "RelativeDocumentMoniker": "Models\\Account.cs",
@@ -353,7 +179,211 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TableRendererService.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\TableRendererService.cs",
+              "RelativeDocumentMoniker": "Services\\TableRendererService.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\TableRendererService.cs",
+              "RelativeToolTip": "Services\\TableRendererService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:18:08.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITableRenderer.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\ITableRenderer.cs",
+              "RelativeDocumentMoniker": "Services\\ITableRenderer.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\ITableRenderer.cs",
+              "RelativeToolTip": "Services\\ITableRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:29:28.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TableViewModel.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\TableViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TableViewModel.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\TableViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TableViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:29:47.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TableRowViewModel.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\TableRowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TableRowViewModel.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\TableRowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TableRowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:29:43.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileViewModel.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\FileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\FileViewModel.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\FileViewModel.cs",
+              "RelativeToolTip": "ViewModels\\FileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:29:37.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileUploadViewModel.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\FileUploadViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\FileUploadViewModel.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\ViewModels\\FileUploadViewModel.cs",
+              "RelativeToolTip": "ViewModels\\FileUploadViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:08:40.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IFileStorageService.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\IFileStorageService.cs",
+              "RelativeDocumentMoniker": "Services\\IFileStorageService.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\IFileStorageService.cs",
+              "RelativeToolTip": "Services\\IFileStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:22:21.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IExcelImportService.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\IExcelImportService.cs",
+              "RelativeDocumentMoniker": "Services\\IExcelImportService.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Services\\IExcelImportService.cs",
+              "RelativeToolTip": "Services\\IExcelImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:18:05.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Balance.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\Balance.cs",
+              "RelativeDocumentMoniker": "Models\\Balance.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\Balance.cs",
+              "RelativeToolTip": "Models\\Balance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:20:56.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountClass.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\AccountClass.cs",
+              "RelativeDocumentMoniker": "Models\\AccountClass.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\AccountClass.cs",
+              "RelativeToolTip": "Models\\AccountClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:21:01.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FileEntity.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\FileEntity.cs",
+              "RelativeDocumentMoniker": "Models\\FileEntity.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Models\\FileEntity.cs",
+              "RelativeToolTip": "Models\\FileEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:21:02.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:20:10.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Files\\Details.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Details.cshtml",
+              "RelativeToolTip": "Views\\Files\\Details.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T15:29:55.134Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Files\\Index.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Index.cshtml",
+              "RelativeToolTip": "Views\\Files\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T15:29:59.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Preview.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Preview.cshtml",
+              "RelativeDocumentMoniker": "Views\\Files\\Preview.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Preview.cshtml",
+              "RelativeToolTip": "Views\\Files\\Preview.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T15:30:01.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\Files\\Upload.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Views\\Files\\Upload.cshtml",
+              "RelativeToolTip": "Views\\Files\\Upload.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T15:30:05.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForB1\\SecondTask_WebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -361,8 +391,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T15:27:22.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T15:27:22.37Z"
             }
           ]
         },

@@ -19,9 +19,7 @@ namespace SecondTask_WebApp.Services
             if (file == null)
                 throw new Exception("Файл не найден");
 
-            var table = new TableViewModel
-            {
-            };
+            var table = new TableViewModel();
 
             foreach (var cls in file.Classes)
             {

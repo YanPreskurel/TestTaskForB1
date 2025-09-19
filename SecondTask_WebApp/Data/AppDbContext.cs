@@ -19,7 +19,6 @@ namespace SecondTask_WebApp.Data
                 .IsRequired()
                 .HasMaxLength(260);
 
-
             modelBuilder.Entity<AccountClass>()
                 .Property(ac => ac.ClassName)
                 .IsRequired()

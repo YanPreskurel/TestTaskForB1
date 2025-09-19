@@ -4,13 +4,13 @@
     {
         private readonly IWebHostEnvironment _env;
 
-        public FileStorageService(IWebHostEnvironment env)
+        public FileStorageService(IWebHostEnvironment env) // зависимость для пути прилолежения
         {
             _env = env;
         }
 
         public async Task<string> SaveFileAsync(IFormFile file)
-        {
+        {                               // физический путь к папке wwwroot
             var uploadsFolder = Path.Combine(_env.WebRootPath, "uploads");
 
             if (!Directory.Exists(uploadsFolder))
@@ -20,7 +20,7 @@
 
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
-                await file.CopyToAsync(stream);
+                await file.CopyToAsync(stream); // копируем содержимое файла в файловый поток, работает построчной.
             }
 
             return filePath;
